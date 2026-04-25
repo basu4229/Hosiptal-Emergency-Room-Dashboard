@@ -159,4 +159,4 @@ Improve efficiency
 Enhance patient experience
 Make informed operational decisions
 Screenshot /Demos Look likes :https://github.com/basu4229/Hosiptal-Emergency-Room-Dashboard/blob/main/Hospital%20Emergecny%20Room%20Dashboard-%20Screenshot.png
-
+![image alt](https://github.com/basu4229/Hosiptal-Emergency-Room-Dashboard/blob/58cf96d708d168d7259a6657a4d03b1557d0b437/Hospital%20Emergecny%20Room%20Dashboard-%20Screenshot.png)
