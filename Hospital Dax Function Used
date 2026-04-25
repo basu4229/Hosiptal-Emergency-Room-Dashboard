@@ -1,0 +1,17 @@
+Hospital emergency Room Dashboard- Dax Function used:
+
+Date Table = CALENDAR(MIN('Hospital ER_Data'[Patient Admission Date]),MAX('Hospital ER_Data'[Patient Admission Date]))
+
+Month Name = FORMAT('Date Table'[Date],"mmm")
+
+Month & Year = 'Date Table'[Month Name] & " " & 'Date Table'[Year]
+
+Day Name = FORMAT('Date Table'[Date],"DDD")
+
+Week Day = WEEKDAY('Date Table'[Date],2)
+
+No Of Patients = DISTINCTCOUNT('Hospital ER_Data'[Patient Id])
+
+Avg Wait Time = FORMAT(AVERAGE('Hospital ER_Data'[Patient Waittime]),"0.0") &" " & "Min"
+
+No of Patient Referred = CALCULATE(COUNTROWS('Hospital ER_Data'),'Hospital ER_Data'[Department Referral] <> "None")
